@@ -72,6 +72,7 @@ jobs:
     - name: Upload artifact for web
       uses: actions/upload-artifact@v4
       with:
+        name: artifact
         path: published/wwwroot
 
   deploy:
