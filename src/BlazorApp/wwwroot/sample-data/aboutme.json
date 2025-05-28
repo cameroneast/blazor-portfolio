@@ -1,12 +1,14 @@
 {
-  "description": "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.",
+  "description": "I'm a Software Developer with a focus on Frontend Development. I lead frontend development for a codebase rewrite project and work one-on-one with a UI/UX designer, as well as support and maintain existing projects.",
   "skills": [
-    "Web design",
-    "User experience",
-    "Inclusive design",
-    "Focus group testing",
-    "Mobile user interfaces",
-    "Graphic design"
+    "Web development",
+    "Full-stack development",
+    "Frontend development",
+    ".NET & C#",
+    "MVC & Razor Pages",
+    "React and JavaScript",
+    "HTML & CSS",
+    "SQL"
   ],
-  "detailOrQuote": "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all."
+  "detailOrQuote": "I also serve part-time in the North Carolina Air National Guard as a Cyber Defense Operator, where I apply my technical skills to protect and defend our nation's cyber infrastructure."
 }

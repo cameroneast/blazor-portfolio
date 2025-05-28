@@ -1,13 +1,18 @@
 [
   {
     "name": "home",
-    "src": "images/woman-with-tablet.jpg",
-    "alt": "woman with glasses holding a tablet"
+    "src": "images/pose-eagle-statue.jpg",
+    "alt": "cameron posing in front of eagle statue"
   },
   {
     "name": "about",
-    "src": "images/motion-background.jpg",
-    "alt": "gray abstract background"
+    "src": "images/pose-eagle-arms.jpg",
+    "alt": "cameron posing in front of eagle statue, arms crossed"
+  },
+  {
+    "name": "about-detail",
+    "src": "images/145CS.jpg",
+    "alt": "cameron in the air national guard uniform"
   },
   {
     "name": "portfolio",

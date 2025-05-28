@@ -21,6 +21,12 @@
         </ul>
         <hr />
         <p style="padding: 1rem 3rem 0;">@aboutMe.DetailOrQuote</p>
+        <hr />
+        @if (heroDetail is not null)
+        {
+            <img src="@(heroDetail.Src)" style="height: 90%; width: 100%; object-fit: cover;" 
+                alt="@(heroDetail.Alt)" />
+        }
     }
     </div>
 </section>
@@ -35,10 +41,13 @@
     private AboutMe? aboutMe;
     private HeroImage? hero;
 
+    private HeroImage? heroDetail;
+
     protected override async Task OnInitializedAsync()
     {
         aboutMe = await Http.GetFromJsonAsync<AboutMe>("sample-data/aboutme.json");
         hero = await HeroImageService.GetHeroAsync(img => img.Name is "about");
+        heroDetail = await HeroImageService.GetHeroAsync(img => img.Name is "about-detail");
 
     }
 }
