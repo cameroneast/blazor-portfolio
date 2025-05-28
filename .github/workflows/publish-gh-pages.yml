@@ -71,7 +71,6 @@ jobs:
     - name: Upload artifact for web
       uses: actions/upload-pages-artifact@v3
       with:
-        name: published-artifact
         path: published/wwwroot
 
   deploy:
