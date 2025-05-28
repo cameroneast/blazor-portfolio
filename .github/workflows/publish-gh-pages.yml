@@ -66,6 +66,7 @@ jobs:
     - name: Publish artifact
       shell: bash
       run: |
+        mkdir -p published
         dotnet publish src/BlazorApp -c Release -o published
 
     - name: Upload artifact for web
