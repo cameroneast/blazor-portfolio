@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Playlist+",
+    "description": "A Next.js and React web app that integrates with Spotify to generate niche music playlists, analyze listening habits, and help users discover new artists.",
+    "url": "https://github.com/fakegio/PlaylistsPlus"
+  },
+  {
+    "title": "Simple Food Ordering System",
+    "description": "Java CLI app for ordering food from a single restaurant, focusing on OOP concepts, file-based storage, and UML diagrams.",
+    "url": "https://github.com/microsoft/web-dev-for-beginners"
+  },
+  {
+    "title": "My Resume Site",
+    "description": "Created with Blazor and C# using the Bootstrap library and deployed to GitHub pages. Includes my experience and abilities.",
+    "url": "https://cameroneast.github.io/blazor-portfolio/"
+  }
+]
